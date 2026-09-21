@@ -1,0 +1,6 @@
+# setup nodejs
+conda activate <environment>
+conda install nodejs
+node -v
+npm -v
+npx create-next-app@latest (to create an empty next.js project structure in any folder)

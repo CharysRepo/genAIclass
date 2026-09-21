@@ -1,0 +1,9 @@
+# install anaconda by downloading the right file from https://repo.anaconda.com/archive/
+# launch anaconda navigator
+
+conda env list
+conda create -n genai-2026
+conda activate genai-2026
+conda deactivate
+conda env remove --name genai-2026
+conda list python

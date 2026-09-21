@@ -1,0 +1,9 @@
+Specialized Workflow:
+    1. Find all PDFs in ./data/samples/
+    2. For each PDF: convert to JPG images
+    3. For each image: run LLM inference with target structured output schema
+    4. Save structured results to JSON in ./data/results/
+
+poppler installation(pdf to image tools)
+   1. download poppler from here: https://github.com/oschwartz10612/poppler-windows/releases/tag/v25.12.0-0
+   2. update the path in system environment variables to point to the bin folder of the extracted poppler

@@ -1,0 +1,19 @@
+Describe the function of a computer motherboard
+
+Create a Python function to reverse a string. 
+
+Explain recursion to a 10-year-old.
+
+Give three tips for staying healthy.
+
+Identify the odd one out.
+Twitter, Instagram, Telegram
+
+Write a summary of the paragraph provided:
+Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers. These machines utilize qubits rather than standard bits, allowing them to exist in multiple states simultaneously through superposition and exhibit entanglement. While large-scale quantum computers are still largely theoretical, small-scale processors are being actively tested by tech firms.
+
+Based on the text provided, what type of astronomy was the James Webb Space Telescope primarily designed to conduct, and when was it launched?
+The James Webb Space Telescope (JWST) is a space telescope designed primarily to conduct infrared astronomy. As the largest optical telescope in space, its high resolution and sensitivity allow it to view objects too old, distant, or faint for the Hubble Space Telescope. It was launched on 25 December 2021.
+
+Calculate the average of the numbers provided in the list and round your final answer to two decimal places.
+[1, 2, 3]

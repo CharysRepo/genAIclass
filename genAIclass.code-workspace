@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "genAIclass",
+			"path": "."
+		},
+		{
+			"name": "genai-2026",
+			"path": "../genai-2026"
+		}
+	],
+	"settings": {}
+}

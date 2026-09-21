@@ -1,0 +1,4 @@
+# install c++ desktop for visual studio (windows)
+1. download visual studio community edition from here: https://visualstudio.microsoft.com/
+2. while installing, select "Desktop development with C++" option
+3. complete the installation

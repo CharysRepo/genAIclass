@@ -1,0 +1,8 @@
+# logfire setup 
+create project at https://pydantic.dev/logfire
+create a write token
+update the write token inside .env file
+
+# 10M events per month limit on its free tier
+# monitoring->live: events
+# debugging->explore: select * from records

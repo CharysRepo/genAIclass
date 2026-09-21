@@ -1,0 +1,153 @@
+{
+  "rag_evaluation_dataset": {
+    "document_source": "ISRO Annual Report 2024-2025",
+    "total_questions": 23,
+    "categories": [
+      {
+        "category": "Organisation and General Facts",
+        "questions": [
+          {
+            "id": "OG1",
+            "question": "Which ISRO center is primarily responsible for the design and development of launch vehicles like PSLV and GSLV?",
+            "answer": "The Vikram Sarabhai Space Centre (VSSC) in Thiruvananthapuram is the lead center for the design and development of space transportation systems."
+          },
+          {
+            "id": "OG2",
+            "question": "What are the two Central Public Sector Enterprises (CPSEs) established under the Department of Space for commercializing R&D activities?",
+            "answer": "Antrix Corporation Limited (ACL) and NewSpace India Limited (NSIL)."
+          },
+          {
+            "id": "OG3",
+            "question": "How many total space missions are planned for the financial year 2025-26 according to the report?",
+            "answer": "A total of 21 missions are planned for 2025-26."
+          }
+        ]
+      },
+      {
+        "category": "Budget and Resource Management",
+        "questions": [
+          {
+            "id": "B1",
+            "question": "What was the initial Budget Estimate (BE) for the Department of Space for 2024-25, and how was it revised at the RE stage?",
+            "answer": "The Budget Estimate (BE) for 2024-25 was ₹13,042.75 crore, which was revised to ₹11,725.75 crore at the Revised Estimate (RE) stage."
+          },
+          {
+            "id": "B2",
+            "question": "What is the breakdown of the ₹13,416.2 crore budget allocated for FY 2025-26 in terms of Capital and Revenue expenditure?",
+            "answer": "For FY 2025-26, ₹6,103.6 crore is earmarked for Capital expenditure and ₹7,312.6 crore is allocated for Revenue expenditure."
+          },
+          {
+            "id": "B3",
+            "question": "How much was the budget for the Gaganyaan Programme reduced at the R.E. 2024-25 stage?",
+            "answer": "The Gaganyaan budget was reduced from ₹1,200 crore (BE) to ₹847.35 crore (RE), a reduction of ₹352.65 crore."
+          },
+          {
+            "id": "B4",
+            "question": "Which sector showed the lowest utilization rate (46.10%) as of December 2024?",
+            "answer": "The Space Sciences sector showed the lowest utilization rate at 46.10%."
+          },
+          {
+            "id": "B5",
+            "question": "Compare the sanctioned employee strength versus the actual total strength for the year 2024-25.",
+            "answer": "The sanctioned strength is 20,295, while the actual total strength in position is 14,556."
+          },
+          {
+            "id": "B6",
+            "question": "What was the revenue generated from commercial activities in the 2023-24 financial year?",
+            "answer": "The Department generated ₹3,268.32 crore in 2023-24, with major contributions from satellite rentals and satellite-building services."
+          },
+          {
+            "id": "B7",
+            "question": "What is the budget allocation for the 'New Generation Launch Vehicle (NGLV)' in FY 2025-26?",
+            "answer": "The budget allocation for NGLV development in the 2025-26 Budget Estimate (BE) is ₹120 crore."
+          }
+        ]
+      },
+      {
+        "category": "Space Transportation Systems",
+        "questions": [
+          {
+            "id": "T1",
+            "question": "What are the four primary operational launch vehicles of ISRO as of this report?",
+            "answer": "The operational launch vehicles are PSLV, GSLV, LVM3, and SSLV."
+          },
+          {
+            "id": "T2",
+            "question": "What is the primary objective of the New Generation Launch Vehicle (NGLV)?",
+            "answer": "NGLV is designed to be a cost-effective, multi-purpose, high-payload launch vehicle that is partially reusable to meet future heavy-lift demands."
+          },
+          {
+            "id": "T3",
+            "question": "What was demonstrated during the RLV-LEX-02 mission?",
+            "answer": "It demonstrated the autonomous landing capability of a reusable launch vehicle under off-nominal release conditions from a helicopter."
+          }
+        ]
+      },
+      {
+        "category": "International Cooperation",
+        "questions": [
+          {
+            "id": "I1",
+            "question": "What is the status and purpose of the NISAR mission?",
+            "answer": "NISAR is a joint NASA-ISRO Synthetic Aperture Radar mission for global earth observation. The satellite has undergone comprehensive testing at URSC, Bengaluru."
+          },
+          {
+            "id": "I2",
+            "question": "With which agency is ISRO collaborating for the LUPEX mission?",
+            "answer": "ISRO is collaborating with JAXA (Japan Aerospace Exploration Agency) for the Lunar Polar Exploration (LUPEX) mission."
+          },
+          {
+            "id": "I3",
+            "question": "What is the TRISHNA mission and who is the partner country?",
+            "answer": "TRISHNA is a collaborative mission with France (CNES) aimed at high-resolution thermal imaging for monitoring surface temperature and water management."
+          }
+        ]
+      },
+      {
+        "category": "Policy and Private Sector",
+        "questions": [
+          {
+            "id": "P1",
+            "question": "How does the Indian Space Policy 2023 define the price of remote sensing data on Bhoonidhi?",
+            "answer": "Data coarser than 5m is free for all; data finer than 5m is free for Government Entities and priced for Non-Government Entities."
+          },
+          {
+            "id": "P2",
+            "question": "What is the role of IN-SPACe regarding ISRO's infrastructure?",
+            "answer": "IN-SPACe permits the sharing of ISRO's space infrastructure and the establishment of temporary facilities within ISRO premises for private enterprises (NGEs)."
+          },
+          {
+            "id": "P3",
+            "question": "How much financial assistance can a start-up receive under the IN-SPACe Seed Fund Scheme?",
+            "answer": "The scheme provides financial assistance of up to ₹1 crore to early-stage space start-ups."
+          }
+        ]
+      },
+      {
+        "category": "Multi-Hop Reasoning",
+        "questions": [
+          {
+            "id": "M1",
+            "question": "How do NRSC and ISTRAC differ in their operational mandates?",
+            "answer": "NRSC focuses on data reception, product generation, and dissemination, while ISTRAC provides tracking, telemetry, and command (TTC) services and mission control."
+          },
+          {
+            "id": "M2",
+            "question": "Which mission category shows the most significant growth between 2024-25 and 2025-26?",
+            "answer": "Earth Observation Satellites, growing from 1 planned mission to 4."
+          },
+          {
+            "id": "M3",
+            "question": "What role does NSIL play in both commercial revenue and space policy?",
+            "answer": "NSIL handles all commercial data dissemination (pricing data finer than 5m) and is a primary source of revenue through launch services and satellite building."
+          },
+          {
+            "id": "M4",
+            "question": "How is the Antarctica Ground Station (AGEOS) utilized in launch operations?",
+            "answer": "Beyond data reception, the station supports Launch and Early Orbit Phase (LEOP) operations specifically for PSLV missions."
+          }
+        ]
+      }
+    ]
+  }
+}

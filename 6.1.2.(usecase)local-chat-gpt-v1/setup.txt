@@ -1,0 +1,11 @@
+# backend
+-goto the directory of beckend
+-python main.py
+
+# frontend
+-get google oauth credentials as described in the google cloud document.
+fill the values for AUTH_GOOGLE_ID,AUTH_GOOGLE_SECRET in .env
+-conda activate <environment>
+-goto the directory of frontend
+-npm install 
+-npm run dev

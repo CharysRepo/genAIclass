@@ -1,0 +1,7 @@
+#(if not installed) download and install nvidia driver (https://www.nvidia.com/en-us/drivers/)
+
+# download and install cuda12.6 (https://developer.nvidia.com/cuda-12-6-0-download-archive)
+# nvcc --version
+
+# pip install torch --index-url https://download.pytorch.org/whl/cu126
+# pip install numba tabulate

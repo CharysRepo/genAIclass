@@ -1,0 +1,10 @@
+# pgvector installation (windows)
+1. Open x64 Native Tools Command Prompt for VS as administrator.
+2. Set your PostgreSQL path: set PGROOT="C:\Program Files\PostgreSQL\18" (adjust version as needed).
+3. Clone and build:
+        set "PGROOT=C:\Program Files\PostgreSQL\18"
+        cd %TEMP%
+        git clone --branch v0.8.2 https://github.com/pgvector/pgvector.git
+        cd pgvector
+        nmake /F Makefile.win
+        nmake /F Makefile.win install

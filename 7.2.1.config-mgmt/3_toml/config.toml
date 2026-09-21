@@ -1,0 +1,22 @@
+[llm.model]
+name="groq:llama-3.3-70b-versatile"
+base_url= ""
+api_key= "xxxx"
+max_tokens= 1024
+temperature= 0.0
+
+[llm.prompts]
+zero_shot= '''
+      You are an AI assistant to answer questions based on a given context.
+
+      Follow these guidelines:
+        - ALWAYS use the knowledge base that is provided in the context between <context> </context> tags to answer user questions.
+        - Never make assumptions or provide information not present in the knowledge base.
+        - If information is not found in the knowledge base, politely acknowledge this.
+'''
+
+[embedder]
+model= "sentence-transformers/all-MiniLM-L6-v2"
+token= "xxxx"
+normalize= true
+

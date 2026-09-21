@@ -1,0 +1,4 @@
+# setup redis
+install redis from https://www.memurai.com/get-memurai?version=windows-redis
+memurai --service-stop
+memurai --service-start

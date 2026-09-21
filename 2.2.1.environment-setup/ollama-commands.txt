@@ -1,0 +1,10 @@
+# install ollama by downloading the right file from https://github.com/ollama/ollama
+
+# ollama commands
+ollama list
+ollama ps
+ollama show <model>
+ollama rm <model>
+ollama pull <model>
+ollama run <model>
+/bye

@@ -1,0 +1,6 @@
+https://console.groq.com/keys
+https://huggingface.co/settings/tokens
+https://openrouter.ai/settings/keys
+https://github.com/settings/personal-access-tokens
+https://aistudio.google.com/api-keys
+https://platform.openai.com/api-keys
